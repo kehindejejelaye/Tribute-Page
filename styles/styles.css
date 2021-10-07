@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60%;
+    margin: 5px auto;
+    height: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    /* background: #eee; */
+}
+h1, h2 {
+   text-align: center;
+   margin-top: 10px;
+   font-size: 3em;
+}
+section {
+    margin-bottom: 10px;
+}
+hr {
+    margin: 15px auto;
+    width: 55%;
+    color: black;
+    height: 2px;
+}
+.photo img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; 
+    /* width: 100%; */
+}
+.description p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+footer {
+    font-size: 1.6em;
+    text-align: center;
+}
